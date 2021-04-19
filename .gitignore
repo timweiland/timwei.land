@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+*.log
+tmp/
+public/
+node_modules/
+resources/
+content-org/assets/ted

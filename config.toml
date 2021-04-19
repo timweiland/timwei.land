@@ -1,0 +1,72 @@
+baseurl = "https://timwei.land"
+title = "Tim Weiland"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "dracula"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Tim Weiland"
+    info = "Solving cool problems with computers"
+    description = "Tim Weiland's personal website"
+    keywords = "blog,developer,ai,personal"
+    avatarurl = "images/me.jpg"
+
+    #favicon_32 = "/img/favicon-32x32.png"
+    #favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "First principles."
+
+    hidecredits = true
+    hidecopyright = false
+    since = 2020
+
+    rtl = false
+
+    math = true
+    colorScheme="auto"
+    # custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/timweiland/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-linkedin fa-2x"
+    weight = 2
+    url = "https://linkedin.com/in/tim-weiland/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/timweiland8/"
+[[params.social]]
+    name = "Mail"
+    icon = "fa fa-envelope fa-2x"
+    weight = 4
+    url = "mailto:hello@timwei.land"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+[[menu.main]]
+    name = "CV"
+    weight = 3
+    url = "/cv.pdf"

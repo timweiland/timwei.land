@@ -1,0 +1,11 @@
+#+TITLE: About me
+#+slug = "about"
+
+#+ATTR_HTML: :style float: left; width:40%; margin-right: 3rem; border: 1px solid;
+[[file:images/me.jpg]]
+
+Hey there! My name is Tim and I am currently a CS major, Math minor undergraduate student at Karlsruhe Institute of Technology in Germany. I'm very fond of neat mathematics and clever algorithms and like using these to solve problems. In particular, I'm very interested in machine learning research.
+
+I organize hackathons and other tech events through [[https://hackundsoehne.de][Hack & Söhne]] to spread the hacking spirit in Germany.
+
+Feel free to contact me [[mailto:hello@timwei.land][via mail]] or any means of communication of your choice listed on the front page. For more detailed information about me, please take a look at [[cv.pdf][my CV]].
